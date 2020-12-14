@@ -1,0 +1,98 @@
+/**********************************************************
+ * EECS2011: Fundamentals of Data Structures,  Winter 2019
+ * Assignment 2:  Problem 3
+ * Author: Andy Mirzaian
+ **********************************************************/
+
+Enter a valid RPIE: 
+45.17
+Input  RPIE: 	 45.17
+Output FPIE: 	 45.17
+Output UPPE: 	 45.17
+-------------------------------------------------------------
+Enter a valid RPIE: 
+3+4)
+Input  RPIE: 	 3+4)
+Output FPIE: 	 (3+4)
+Output UPPE: 	 3 4 +
+-------------------------------------------------------------
+Enter a valid RPIE: 
+a*b)
+Input  RPIE: 	 a*b)
+Output FPIE: 	 (a*b)
+Output UPPE: 	 a b *
+-------------------------------------------------------------
+Enter a valid RPIE: 
+v1+v2)*v3)
+Input  RPIE: 	 v1+v2)*v3)
+Output FPIE: 	 ((v1+v2)*v3)
+Output UPPE: 	 v1 v2 + v3 *
+-------------------------------------------------------------
+Enter a valid RPIE: 
+v1+v2*v3)
+Input  RPIE: 	 v1+v2*v3)
+Input is not a valid RPIE.
+-------------------------------------------------------------
+Enter a valid RPIE: 
+v1+v2))*v3
+Input  RPIE: 	 v1+v2))*v3
+Input is not a valid RPIE.
+-------------------------------------------------------------
+Enter a valid RPIE: 
+5+6
+Input  RPIE: 	 5+6
+Input is not a valid RPIE.
+-------------------------------------------------------------
+Enter a valid RPIE: 
+a+b)*c+d))
+Input  RPIE: 	 a+b)*c+d))
+Output FPIE: 	 ((a+b)*(c+d))
+Output UPPE: 	 a b + c d + *
+-------------------------------------------------------------
+Enter a valid RPIE: 
+a+b)*c+d)
+Input  RPIE: 	 a+b)*c+d)
+Input is not a valid RPIE.
+-------------------------------------------------------------
+Enter a valid RPIE: 
+49.2*63.54)
+Input  RPIE: 	 49.2*63.54)
+Output FPIE: 	 (49.2*63.54)
+Output UPPE: 	 49.2 63.54 *
+-------------------------------------------------------------
+Enter a valid RPIE: 
+6+11)*83.45)
+Input  RPIE: 	 6+11)*83.45)
+Output FPIE: 	 ((6+11)*83.45)
+Output UPPE: 	 6 11 + 83.45 *
+-------------------------------------------------------------
+Enter a valid RPIE: 
+6+11*83.45))
+Input  RPIE: 	 6+11*83.45))
+Output FPIE: 	 (6+(11*83.45))
+Output UPPE: 	 6 11 83.45 * +
+-------------------------------------------------------------
+Enter a valid RPIE: 
+ 10 + 20 ) / 30 - 40 ) * 50 - 60 ) ) )
+Input  RPIE: 	  10 + 20 ) / 30 - 40 ) * 50 - 60 ) ) )
+Output FPIE: 	 (( 10 + 20 ) /(( 30 - 40 ) *( 50 - 60 ) ) )
+Output UPPE: 	 10 20 + 30 40 - 50 60 - * /
+-------------------------------------------------------------
+Enter a valid RPIE: 
+5-7)*15*32)/3+5)))*8-3))
+Input  RPIE: 	 5-7)*15*32)/3+5)))*8-3))
+Output FPIE: 	 (((5-7)*((15*32)/(3+5)))*(8-3))
+Output UPPE: 	 5 7 - 15 32 * 3 5 + / * 8 3 - *
+-------------------------------------------------------------
+Enter a valid RPIE: 
+a+b)+c+d))+e+f)+g+h)))
+Input  RPIE: 	 a+b)+c+d))+e+f)+g+h)))
+Output FPIE: 	 (((a+b)+(c+d))+((e+f)+(g+h)))
+Output UPPE: 	 a b + c d + + e f + g h + + +
+-------------------------------------------------------------
+Enter a valid RPIE: 
+a+b)+c)+d)+e)+f)+g)+h)+i)+j)+k)+l)+m)+n)
+Input  RPIE: 	 a+b)+c)+d)+e)+f)+g)+h)+i)+j)+k)+l)+m)+n)
+Output FPIE: 	 (((((((((((((a+b)+c)+d)+e)+f)+g)+h)+i)+j)+k)+l)+m)+n)
+Output UPPE: 	 a b + c + d + e + f + g + h + i + j + k + l + m + n +
+-------------------------------------------------------------

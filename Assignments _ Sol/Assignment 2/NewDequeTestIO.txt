@@ -1,0 +1,34 @@
+/**********************************************************
+ * EECS2011: Fundamentals of Data Structures,  Winter 2019
+ * Assignment 2:  Problem 2
+ * Author: Andy Mirzaian
+ **********************************************************/
+
+The deque has 0 elements.
+It is empty: true.
+0	 inserted at the front.
+5	 inserted at the front.
+10	 inserted at the front.
+15	 inserted at the front.
+20	 inserted at the front.
+25	 inserted at the front.
+30	 inserted at the front.
+35	 inserted at the front.
+40	 inserted at the front.
+45	 inserted at the front.
+The deque has 10 elements.
+It is empty: false.
+0	 removed from back.
+5	 removed from back.
+10	 removed from back.
+15	 removed from back.
+20	 removed from back.
+The deque has 5 elements.
+It is empty: false.
+45	 removed from front.
+40	 removed from front.
+35	 removed from front.
+30	 removed from front.
+25	 removed from front.
+The deque has 0 elements.
+It is empty: true.

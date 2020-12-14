@@ -1,0 +1,52 @@
+/**********************************************************
+ * EECS2011: Fundamentals of Data Structures,  Winter 2019
+ * Assignment 2:  Problem 1
+ * Author: Andy Mirzaian
+ **********************************************************/
+
+Test results of the program Lights.java for n = 3, 4, 5 shown below:
+
+111	 3 lights ON initially.
+011	 turn light 1 OFF.
+010	 turn light 3 OFF.
+110	 turn light 1 ON.
+100	 turn light 2 OFF.
+000	 turn light 1 OFF.
+
+
+1111	 4 lights ON initially.
+1011	 turn light 2 OFF.
+0011	 turn light 1 OFF.
+0010	 turn light 4 OFF.
+1010	 turn light 1 ON.
+1110	 turn light 2 ON.
+0110	 turn light 1 OFF.
+0100	 turn light 3 OFF.
+1100	 turn light 1 ON.
+1000	 turn light 2 OFF.
+0000	 turn light 1 OFF.
+
+
+11111	 5 lights ON initially.
+01111	 turn light 1 OFF.
+01011	 turn light 3 OFF.
+11011	 turn light 1 ON.
+10011	 turn light 2 OFF.
+00011	 turn light 1 OFF.
+00010	 turn light 5 OFF.
+10010	 turn light 1 ON.
+11010	 turn light 2 ON.
+01010	 turn light 1 OFF.
+01110	 turn light 3 ON.
+11110	 turn light 1 ON.
+10110	 turn light 2 OFF.
+00110	 turn light 1 OFF.
+00100	 turn light 4 OFF.
+10100	 turn light 1 ON.
+11100	 turn light 2 ON.
+01100	 turn light 1 OFF.
+01000	 turn light 3 OFF.
+11000	 turn light 1 ON.
+10000	 turn light 2 OFF.
+00000	 turn light 1 OFF.
+
